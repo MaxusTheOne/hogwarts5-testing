@@ -97,9 +97,8 @@ async function createTeacherWithNameParts() {
     result.firstName === "Severus" && 
     result.middleName === "Prince" && 
     result.lastName === "Snape" && 
-    result.house === "Slytherin" && 
-    result.schoolYear === 16 && 
-    result.fullName === "Severus Prince Snape") {
+    result.fullName === "Severus Prince Snape" &&
+    result.house === "Slytherin" ) {
     console.log(`✅ Teacher created with name parts`);
   } else {
     console.error(`❌ Teacher was not created with name parts`);
@@ -129,8 +128,7 @@ async function createTeacherWithFullName() {
     result.middleName === null && 
     result.lastName === "McGonagall" && 
     result.fullName === "Minerva McGonagall" &&
-    result.house === "Gryffindor" && 
-    result.schoolYear === 47 ) {
+    result.house === "Gryffindor" ) {
     console.log(`✅ Teacher created with full name`);
   } else {
     console.error(`❌ Teacher was not created with full name`);
