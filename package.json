@@ -1,0 +1,13 @@
+{
+  "name": "hogwarts5-testing",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "a small number of functions to \"test\" the API of the Hogwarts5 exercise",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+    
+  },
+  "author": "Peter Lind (petl@kea.dk)",
+  "license": "ISC"
+}
