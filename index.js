@@ -92,7 +92,7 @@ async function createTeacherWithNameParts() {
   ),
   }).then(response => response.json());
   
-  // Check if the student was created with all properties
+  // Check if the teacher was created with all properties
   if (result.id != undefined && 
     result.firstName === "Severus" && 
     result.middleName === "Prince" && 
@@ -122,7 +122,7 @@ async function createTeacherWithFullName() {
   ),
   }).then(response => response.json());
 
-  // Check if the student was created with all properties
+  // Check if the teacher was created with all properties
   if (result.id != undefined && 
     result.firstName === "Minerva" && 
     result.middleName === null && 
